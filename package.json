@@ -1,0 +1,23 @@
+{
+  "name": "sass-squad.github.io",
+  "version": "1.0.0",
+  "description": "Final project of media and agency",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sass-squad/sass-squad.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sass-squad/sass-squad.github.io/issues"
+  },
+  "homepage": "https://github.com/sass-squad/sass-squad.github.io#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-dev-server": "^3.2.1"
+  }
+}

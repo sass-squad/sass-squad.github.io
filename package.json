@@ -21,6 +21,8 @@
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
-    "gulp": "^4.0.0"
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
   }
 }

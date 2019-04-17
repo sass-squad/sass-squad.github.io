@@ -2,3 +2,15 @@
 @import "services";
 @import "contact";
 @import "gallery";
+@import 'variables';
+
+body {
+  font-family: $primary-text;
+}
+
+.navbar {
+  background-color: #006341;
+  font-size: 20px;
+  color: white;
+  // height: 80px;
+}

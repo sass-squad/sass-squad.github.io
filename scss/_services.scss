@@ -21,7 +21,7 @@
 
 .display-3{
   padding: 5px;
-  background-color:$darkGreen;
+  background-color:$mainGreen;
   color:white;
   text-align: center;
   text-shadow: 2px 2px rgba(0,0,0,0.7);
@@ -35,15 +35,14 @@
 
 }
 .btn-primary{
-  background-color:$darkGreen!important;
+  background-color:$mainGreen!important;
   color:white!important;
-  border-color:$darkGreen!important;
+  border-color:$mainGreen!important;
 }
 .btn-primary:hover{
-  color:$darkGreen!important;
+  color:$mainGreen!important;
   background-color: white!important;
 }
 .bg-primary{
-  display: none;
-  background-color: $darkGreen!important;
+  background-color: $mainGreen!important;
 }

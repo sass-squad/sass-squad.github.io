@@ -2,36 +2,35 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8" />
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/min/main.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <title>Final Project</title>
 </head>
 <body>
-
-<!-- Navigation Bar starts here -->
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar w/ text</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+  <!-- Responsive Nav Bar using Bootstrap (contains hamburger menu) -->
+  <nav class="navbar navbar-expand-md navbar-dark">
+    <a href="#" class="navbar-brand"><img src="images/mclennanPhotographyLogo.png" alt="Algonquin Media & Design Agency" class="img-rounded center-block brandingLogo"></a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon">
+          <!-- <i class="fa fa-bars"></i> -->
+        </span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="#" data-toggle:"collapse" data-target="#navbarMenu" class="nav-link">Home</a>
         </li>
-        <li class="nav-item  active">
-          <a class="nav-link" href="gallery.html">Products</a>
+        <li class="nav-item">
+          <a href="./services.html" data-toggle:"collapse" data-target="#navbarMenu" class="nav-link">Services</a>
         </li>
-        <li class="nav-item  active">
-          <a class="nav-link" href="service.html">Services</a>
+        <li class="nav-item">
+          <a href="./gallery.html" data-toggle:"collapse" data-target="#navbarMenu" class="nav-link">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a href="./contact.html" data-toggle:"collapse" data-target="#navbarMenu" class="nav-link">Contact</a>
         </li>
       </ul>
-<form class="form-inline">
-  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-</form>
     </div>
   </nav>
 
@@ -147,7 +146,7 @@ raphy-->
 
   <p class="card-text">
     <br><h5> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h5><br><br>
-    
+
     </p>
     <div class="collapse" id="collapseExample3">
       <div >

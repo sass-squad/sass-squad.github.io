@@ -20,10 +20,8 @@
 }
 
 .display-3{
-  display: flex;
   padding: 5px;
-  // flex-direction: column;
-  background-color:#147346!important;
+  background-color:$darkGreen;
   color:white;
   text-align: center;
   text-shadow: 2px 2px rgba(0,0,0,0.7);
@@ -37,11 +35,15 @@
 
 }
 .btn-primary{
-  background-color:#147346!important;
+  background-color:$darkGreen!important;
   color:white!important;
-  border-color: #147346!important;
+  border-color:$darkGreen!important;
 }
 .btn-primary:hover{
-  color:#147346!important;
+  color:$darkGreen!important;
   background-color: white!important;
+}
+.bg-primary{
+  display: none;
+  background-color: $darkGreen!important;
 }

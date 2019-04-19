@@ -39,6 +39,7 @@ body {
   color: white; }
 
 
+  
   .send_message {
     width: 100%;
     float: none;
@@ -52,3 +53,29 @@ body {
     float: none;
     margin-top:25px;
     width: 100%;
+    }
+  .send_message {
+    width: 50%;
+    float: left; }
+  
+  .send_message input[type="text"], textarea {
+    width: 72%;
+    padding: 10px;
+    margin-bottom: 10px; }
+  
+  .contact_information {
+    float: left;
+    width: 47%; }
+  
+  .color_heading {
+    color: #2570a0; }
+  
+  .color_text {
+    color: #333; }
+  
+  .btnsubmit {
+    background-color:#006341;
+    color: white;
+    padding: 10px;
+    display: block;
+    border: none; }

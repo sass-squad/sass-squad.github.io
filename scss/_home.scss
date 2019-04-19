@@ -1,0 +1,119 @@
+.weWork {
+  background-color: $mainGreen;
+  padding-top: 10px;
+  margin-top: 30px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  img {
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  h3 {
+    text-align: center;
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 2rem;
+    color: white;
+  }
+  p {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    color: white;
+  }
+}
+.card {
+  margin-bottom: 20px;
+}
+.cardRow {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-body {
+  background-color: $mainGreen;
+  color: white;
+}
+.card-col {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cardTop {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6rem;
+  font-family: "Montserrat Bold", sans-serif;
+}
+.btn-light {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer {
+  background-color: $mainGreen;
+  color: white;
+  display: inline-block;
+  width: 100%;
+}
+.footerNav {
+  width: 50%;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+.socialMedia {
+  width: 30%;
+  float: right;
+  img {
+    width: 20%;
+    padding-top: auto;
+    padding-bottom: auto;
+  }
+}
+
+// Media Query for Desktop
+@media only screen and (min-width: 975px) {
+  .weWork {
+    font-size: 1rem;
+    h3 {
+      font-size: 2rem;
+    }
+    img {
+      width: 65%;
+    }
+    .workText {
+      margin-top: 40px;
+    }
+  }
+  .centered {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .weWork {
+    font-size: 1.5rem;
+    h3 {
+      font-size: 4rem;
+    }
+  }
+  .centered {
+    font-size: 6rem;
+  }
+}

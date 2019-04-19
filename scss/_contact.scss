@@ -1,5 +1,11 @@
 
-    
+    p {
+      font-family: 'Montserrat', sans-serif;
+      padding-left: 12px;
+      padding-right: 12px;
+      padding-bottom: 15px;
+      color: white;
+    }
  
   .send_message input[type="text"], textarea {
     width: 72%;
@@ -8,7 +14,7 @@
     }
     
     .contact_information{
-    float:left;
+    float:right;
     width:47%;
     }
     
@@ -22,7 +28,7 @@
     
         
     .btnsubmit {
-        background-color: rgb(37,112,160);
+        background-color:  #006341;
         color: white;
         padding: 10px;
         display: block;

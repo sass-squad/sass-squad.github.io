@@ -1,7 +1,10 @@
 .weWork {
   background-color: #006341;
+  padding-top: 10px;
   margin-top: 30px;
-  margin-right: 40px; }
+  margin-right: 40px;
+  margin-bottom: 30px;
+  padding-bottom: 20px; }
   .weWork img {
     width: 30%;
     padding-top: 10px;
@@ -16,10 +19,18 @@
     color: white; }
   .weWork p {
     font-family: 'Montserrat', sans-serif;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 15px;
     color: white; }
+
+.card {
+  margin-bottom: 20px; }
+
+.cardRow {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto; }
 
 .card-body {
   background-color: #006341;
@@ -40,7 +51,55 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 6rem; }
+  font-size: 6rem;
+  font-family: "Montserrat Bold", sans-serif; }
+
+.btn-light {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.footer {
+  background-color: #006341;
+  color: white;
+  display: inline-block;
+  width: 100%; }
+
+.footerNav {
+  width: 50%; }
+
+.nav-link {
+  color: white;
+  font-size: 20px; }
+
+.socialMedia {
+  width: 30%;
+  float: right; }
+  .socialMedia img {
+    width: 20%;
+    padding-top: auto;
+    padding-bottom: auto; }
+
+@media only screen and (min-width: 975px) {
+  .weWork {
+    font-size: 1rem; }
+    .weWork h3 {
+      font-size: 2rem; }
+    .weWork img {
+      width: 65%; }
+    .weWork .workText {
+      margin-top: 40px; }
+  .centered {
+    font-size: 4rem; } }
+
+@media only screen and (min-width: 1400px) {
+  .weWork {
+    font-size: 1.5rem; }
+    .weWork h3 {
+      font-size: 4rem; }
+  .centered {
+    font-size: 6rem; } }
 
 body {
   font-family: "Montserrat", sans-serif; }

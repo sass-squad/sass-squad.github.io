@@ -1,1 +1,110 @@
+$body-font: Montserrat,sans-serif;
+
+body {
+  background-color: #006341;
+   margin: 0;
+   font-family: $body-font;
+}
+
+
+h2 {
+  margin: 0;    
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.map {
+  position: relative;
+  padding-bottom:57%; 
+  height: 0;
+  overflow: hidden;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.container{
+  padding-top: auto;
+    padding-bottom: auto;
+    margin:0;
+
+}
+.contactform{
+  margin:0;
+  align-content:left;
+  position: relative;
+}
+
+.contact_information{
+  margin:0;
+  align-content:right;
+  position: relative;
+}
+
+h4{
+font-size: 12PX;
+
+ }
+
+
+.footer {
+  background-color: $mainGreen;
+  color: white;
+  display: inline-block;
+  width: 100%;
+}
+.footerNav {
+  width: 50%;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+.socialMedia {
+  width: 30%;
+  float: right;
+  img {
+    width: 20%;
+    padding-top: auto;
+    padding-bottom: auto;
+  }
+}
+
+
+// Media Query for Desktop
+@media only screen and (min-width: 975px) {
+  h2 {
+    font-size: 3rem;
+  }
+  iframe {
+    width: 100%;
+  }
+  .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+@media only screen and (min-width: 1400px) {
+  h2 {
+    font-size: 2rem;
+  }
+  iframe {
+    width: 100%;
+  }
+  .container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
 

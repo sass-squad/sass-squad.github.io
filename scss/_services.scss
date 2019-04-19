@@ -1,0 +1,49 @@
+.banner-mahvin {
+    position: relative;
+    width: 100%;
+    height: 620px!important;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://images.pexels.com/photos/273230/pexels-photo-273230.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)!important;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.text-center-service{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.display-2{
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.display-3{
+  padding: 5px;
+  background-color:$darkGreen;
+  color:white;
+  text-align: center;
+  text-shadow: 2px 2px rgba(0,0,0,0.7);
+}
+.display-3 img{
+  float: left;
+  margin-top: 15px;
+  display: inline-block;
+  height:50px!important;
+  margin-right:5px!important;
+
+}
+.btn-primary{
+  background-color:$darkGreen!important;
+  color:white!important;
+  border-color:$darkGreen!important;
+}
+.btn-primary:hover{
+  color:$darkGreen!important;
+  background-color: white!important;
+}
+.bg-primary{
+  display: none;
+  background-color: $darkGreen!important;
+}
